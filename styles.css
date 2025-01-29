@@ -1,0 +1,39 @@
+body {
+    background-color: #000000;
+    color: #d1d1d1;
+    font-family: 'Garamond', serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.navbar {
+    background-color: #000000;
+}
+.navbar-brand, .nav-link {
+    color: #d1d1d1 !important;
+}
+.nav-link:hover {
+    color: #b30000 !important;
+}
+.hero-section {
+    height: 80vh;
+    padding-top: 10%;
+    /* background: url('https://source.unsplash.com/1600x900/?gothic,dark') no-repeat center center/cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content {
+    flex: 1;
+}
+
+.footer {
+    background-color: #000000;
+    color: #d1d1d1;
+    text-align: center;
+    padding: 10px 0;
+}
